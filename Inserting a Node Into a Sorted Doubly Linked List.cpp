@@ -5,7 +5,8 @@ DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* llist, int data) {
     
     if(tmp->data < ptr->data){
         
-        
+        tmp->next=llist;
+        llist=tmp;
         
     }
     else
